@@ -1,0 +1,10 @@
+<Project Sdk="Godot.NET.Sdk/4.0.0">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <MyriadSdkVerboseOutput>true</MyriadSdkVerboseOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="./TestFSharpGodot2.fsproj"/>
+  </ItemGroup>
+</Project>
